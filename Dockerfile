@@ -9,5 +9,3 @@ COPY --from=download /usr/bin/local-php-security-checker /usr/bin/local-php-secu
 
 RUN mkdir /app
 WORKDIR /app
-
-ENTRYPOINT ["/usr/bin/local-php-security-checker"]
