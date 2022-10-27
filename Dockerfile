@@ -1,6 +1,6 @@
 FROM alpine AS download
 
-RUN wget https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.3/local-php-security-checker_2.0.3_linux_amd64 -O /usr/bin/local-php-security-checker
+RUN wget https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.5/local-php-security-checker_2.0.5_linux_amd64 -O /usr/bin/local-php-security-checker
 RUN chmod a+x /usr/bin/local-php-security-checker
 
 FROM php:8.1-cli-alpine
